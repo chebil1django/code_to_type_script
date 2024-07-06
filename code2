@@ -1,7 +1,7 @@
 
 import React, { Component } from 'react';
 
-// Define the types for props and state
+
 type CounterProps = {};
 type CounterState = {
   count: number;
@@ -12,7 +12,7 @@ class Counter extends Component<CounterProps, CounterState> {
     count: 0,
   };
 
-  // Arrow function to automatically bind 'this'
+//arrow function
   increment = () => {
     this.setState({ count: this.state.count + 1 });
   };
